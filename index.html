@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            File upload program
+        </title>
+    </head>
+    <body>
+        <h1>File upload in Node js</h1>
+        <form method="post" action="/single" enctype="multipart/form-data">
+            <input type="file" name="singlefile" />
+            <input type="submit" name="submit" />
+        </form>
+
+        <h1>Multiple File upload in Node js</h1>
+        <form method="post" action="/multiple" enctype="multipart/form-data">
+            <input type="file" name="multiplefile" multiple/>
+            <input type="submit" name="submit" />
+        </form>
+
+    </body>
+</html>
